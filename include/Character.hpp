@@ -32,6 +32,7 @@ class Character
     // ITEMS AND RINGS
     void one_up();
     void add_ring();
+    void lose_item();
     // GET_HIT
     void die();
     void get_hit();
@@ -42,4 +43,5 @@ class Character
         Character();
         ~Character();
         float get_speed();
+        void pick_item(Item);
 };
